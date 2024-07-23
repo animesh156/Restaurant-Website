@@ -7,7 +7,7 @@ import Layout from "./Layout.jsx"
 import Home from "./components/Home.jsx"
 import About from "./components/About.jsx"
 import Contact from "./components/Contact.jsx"
-import Service from "./components/Service.jsx"
+import Menu from "./components/Menu.jsx"
 
 
 
@@ -17,7 +17,7 @@ const router  = createBrowserRouter(
     <Route path='/' element={<Layout />}>
     <Route path='' element={<Home />} />
     <Route path='about' element={<About />} />
-    <Route path='service' element={<Service />} />
+    <Route path='menu' element={<Menu />} />
     <Route path='contact' element={<Contact />} />
     </Route>
 

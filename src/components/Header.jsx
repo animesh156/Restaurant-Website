@@ -42,12 +42,12 @@ export default function Header() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/service"
+                to="/menu"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Service
+                Menu
               </NavLink>
             </li>
             <li className="nav-item">
