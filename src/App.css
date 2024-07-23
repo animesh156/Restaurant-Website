@@ -1,0 +1,27 @@
+
+.abt {
+  font-family:"Merriweather";
+}
+
+.timing {
+  font-family: Josefin Sans;
+}
+
+.abt-hd {
+  font-family: Lilita One;
+}
+
+.cnt h1 {
+  font-family:Lilita One;
+
+}
+
+.cnt p {
+  font-family:Josefin Sans;
+  font-size: large;
+}
+
+.cnt email, phone {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
