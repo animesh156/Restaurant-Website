@@ -1,4 +1,4 @@
-import Biryani from "./assets/chicken-biryani.jpg"
+import Biryani from "./assets/biryani.jpg"
 import Dosa from "./assets/Masala-Dosa.jpg"
 import Paneer from "./assets/Paneer.jpg"
 import Noodles from "./assets/noodles.jpeg"

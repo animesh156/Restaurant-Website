@@ -1,7 +1,13 @@
+
+
 export default function Contact() {
    
-  return (
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
 
+
+  return (
 
     <>
     
@@ -87,7 +93,7 @@ export default function Contact() {
 
                             <button
                                 type="submit"
-                                onClick={(e) => e.preventDefault()}
+                                onClick={() => handleSubmit }
                                 className="md:w-32 bg-orange-700 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
                             >
                                 Book 

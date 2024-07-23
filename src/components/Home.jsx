@@ -1,9 +1,9 @@
 
 import { Link } from "react-router-dom";
 
-import "../HomeStyle.css"
+import "../styles/HomeStyle.css"
 
-import Banner from "../assets/hrt.jpg";
+import Banner from "../assets/homeBg.jpg";
 
 export default function Home() {
    

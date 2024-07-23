@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "../navbar.css";
+import "../styles/navbar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../icon";
 import logo from "../assets/logo.svg";
 
