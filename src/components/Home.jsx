@@ -13,7 +13,7 @@ export default function Home() {
         <div className="home" style={{ backgroundImage: `url(${Banner})` }}>
         <div className="headerContainer text-center">
           <h1 >Food Website</h1>
-          <p>Best Food In India</p>
+          <p>Delicious Foods </p>
           <Link to="/menu">
             <button>ORDER NOW</button>
           </Link>
