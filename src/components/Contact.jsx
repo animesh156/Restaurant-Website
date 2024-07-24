@@ -1,12 +1,13 @@
 
 
 export default function Contact() {
-   
+
     const handleSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        alert("Thank you your table is booked!!")
+        e.target.reset()
     }
-
-
+   
   return (
 
     <>
@@ -22,7 +23,7 @@ export default function Contact() {
         </div>
  
 
-    <form className="p-14 flex flex-col justify-center">
+    <form className="p-14 flex flex-col justify-center" onSubmit={handleSubmit}>
                             <div className="flex flex-col">
                                 <label htmlFor="name" className="hidden">
                                     Full Name
@@ -93,7 +94,6 @@ export default function Contact() {
 
                             <button
                                 type="submit"
-                                onClick={() => handleSubmit }
                                 className="md:w-32 bg-orange-700 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
                             >
                                 Book 
